@@ -6,6 +6,9 @@
   "repository": "https://github.com/TheChicken14/Kyoto.git",
   "author": "TheChicken",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node ./dist/src/Kyoto.js\""
+  },
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
     "@types/node": "^14.14.21"
