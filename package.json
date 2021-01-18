@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/TheChicken14/Kyoto.git",
   "author": "TheChicken",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0"
+  }
 }
