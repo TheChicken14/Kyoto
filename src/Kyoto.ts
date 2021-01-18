@@ -11,7 +11,8 @@ const client = new KyotoClient({
 client.registry
     .registerDefaultTypes()
     .registerGroups([
-        ['sound', 'Sounds']
+        ['sound', 'Sounds'],
+        ['commands', 'Commands']
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
