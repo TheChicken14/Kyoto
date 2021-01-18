@@ -15,7 +15,6 @@ module.exports = class SoundsCommand extends (
         {
           prompt: "Which sound do you want to play?",
           type: "string",
-          oneOf: getSounds().map((s) => s.name),
           key: "sn",
         },
       ],
@@ -31,7 +30,11 @@ module.exports = class SoundsCommand extends (
     }
 
     const sounds = getSounds();
-    const sound = sounds.find((s) => s.name == sn);
+    const sound = sounds.find((s) => s.name.toLowerCase() == sn.toLowerCase());
+
+    if (!sound) {
+      return msg.reply("I couldn't find a sound with that name");
+    }
 
     const connection = await msg.member.voice.channel.join();
 
