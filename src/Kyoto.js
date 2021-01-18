@@ -13,6 +13,7 @@ client.registry
   .registerGroups([
     ["sound", "Sounds"],
     ["commands", "Commands"],
+    ["admin", "Admin"],
   ])
   .registerDefaultGroups()
   .registerDefaultCommands()
