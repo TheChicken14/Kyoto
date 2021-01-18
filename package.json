@@ -9,5 +9,8 @@
   "devDependencies": {
     "@tsconfig/node14": "^1.0.0",
     "@types/node": "^14.14.21"
+  },
+  "dependencies": {
+    "discord.js-commando": "discordjs/Commando"
   }
 }
