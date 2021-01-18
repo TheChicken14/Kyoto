@@ -1,0 +1,9 @@
+{
+  "name": "KyotoSoundboard",
+  "version": "0.1.0",
+  "description": "A soundboard for Discord",
+  "main": "index.js",
+  "repository": "https://github.com/TheChicken14/Kyoto.git",
+  "author": "TheChicken",
+  "license": "MIT"
+}
